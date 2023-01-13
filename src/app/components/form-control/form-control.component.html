@@ -1,0 +1,36 @@
+<body>
+<div class="Form-control d-flex flex-column justify-content-center align-items-center">
+  <h1 class="h1" style="text-align:center;">{{ titulo }}</h1>
+
+  <Form>
+
+    <input class="form-control bt" type="text"  name="username" placeholder="Nombre" required="" autofocus="" name="nombre"[(ngModel)]="nombre"><br/>
+
+    <input class="form-control bt" type="text" name="username" placeholder="Apellido" required="" autofocus="" name="apellido"[(ngModel)]="apellido"><br/>
+
+    <input class="form-control bt" type="text" name="username" placeholder="Correo" required="" autofocus="" name="apellido"[(ngModel)]="correo"><br/>
+
+
+
+    <input class="form-control bt" type="submit" value="Registrar" (click)="registrarUsuraio()">
+
+    <label class="checkbox">
+      <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Recordar contraseña
+    </label>
+
+  </Form>
+</div>
+<br/>
+
+<div class="registrado d-flex flex-column justify-content-center align-items-center">
+   <p *ngIf="registrado; else sinRegistrar"> {{ mensaje }} con el nombre {{nombre}} {{apellido}} y tiene el cargo de <span [ngClass]="{paraDirectores:cargo=='director'}"> {{ cargo }}</span></p>
+
+    <ng-template #sinRegistrar>
+
+      <p class="mensaje">Nadie registrado</p>
+
+    </ng-template>
+</div>
+
+</body>
+

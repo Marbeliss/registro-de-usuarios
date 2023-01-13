@@ -1,0 +1,19 @@
+.Form-control{
+  margin-top: 5em;
+
+}
+
+
+
+.bt{
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  background-color: #D7CCD5 ;
+  border: linear-gradient(to right, #304352 0%, #D7CCD5 100%);;;
+  padding: 1.25em 2em;
+  margin: 10px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+

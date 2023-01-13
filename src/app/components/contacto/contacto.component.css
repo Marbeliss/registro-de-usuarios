@@ -1,0 +1,102 @@
+
+
+.contacto .container{
+  max-width: 68.75rem;
+  min-height: 12.5rem;
+  padding: 1.25rem;
+  background-color: #D7CCD5; /*1*/
+}
+
+.align-items-center{
+  background-color: #D7CCD5;/*2*/
+}
+
+.contacto .rectagunlo{
+  margin-top: -5rem;
+  background-color: rgb(16, 15, 15);
+  border: 10px;
+  box-shadow: 0px 1px 4px 1px rgb(211, 180, 180);
+
+}
+
+.contacto .row{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: rgb(0, 0, 0); /*conversemos*/
+}
+
+.contacto .descripcion {
+  color: #000000; /*cantactame*/
+  font-size: 19.2px;
+}
+
+.contacto button{
+  color: rgb(5, 5, 5);
+  font-weight:bold;
+  background-color: linear-gradient(to right, #304352 0%, #D7CCD5 100%);;/*color de button*/
+  border: linear-gradient(to right, #4a5d6b 0%, #D7CCD5 100%);
+  padding: 0.25em 2em;
+  margin: 10px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 16px;
+  background-color: linear-gradient(to right, #304352 0%, #D7CCD5 100%);;
+}
+
+.contacto button i{
+  color:#000000; /*color de la cartita*/
+  font-size: 20.8px;
+  transition: all 0.2s ease-in-out;
+}
+
+
+/*Pie de pg-(footer)*/
+
+.footer{
+  min-height: 31.25rem;
+}
+
+.footer-texto{
+  font-size: 1.2rem;
+  padding: 1.25rem;
+  margin-bottom: 1.875rem;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.iconos-redes-sociales a{
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+
+  border: 2px solid white; /*color de circulo*/
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+  margin: 1em;
+
+}
+
+.iconos-redes-sociales i{
+  color: #ffffff; /*color fijo de los iconos*/
+  font-size: 1rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: linear-gradient(to right, #304352 0%, #D7CCD5 100%);
+  border: 2px white;
+}
+
+.iconos-redes-sociales a:hover i {
+  color: rgb(0, 0, 0);
+
+}
+
+.derechos-de-autor{
+  font-size: 15px;
+  color: #000000;
+  padding: 20px;
+}

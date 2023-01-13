@@ -4,10 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
+import { FormControlComponent } from './components/form-control/form-control.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContactoComponent,
+    FormControlComponent
   ],
   imports: [
     BrowserModule,
